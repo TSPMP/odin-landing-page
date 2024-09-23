@@ -5,6 +5,10 @@ html, body {
     font-family: Roboto, sans-serif;
 }
 
+.header, .hero, .information {
+    width: 1200px;
+}
+
 .section-container-header, .section-container-hero {
     display: flex;
     justify-content: center;
@@ -17,7 +21,6 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    width: 1200px;
 }
 
 .header ul {
@@ -45,7 +48,6 @@ html, body {
 }
 
 .hero {
-    width: 1200px;
     display: flex;
     gap: 48px;
 }
