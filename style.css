@@ -5,15 +5,18 @@ html, body {
     font-family: Roboto, sans-serif;
 }
 
-.header, .hero, .information {
-    width: 1200px;
-}
-
-.section-container-header, .section-container-hero {
+.section-container-header, .section-container-hero, .section-container-information {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-container-header, .section-container-hero {
     background-color: #1F2937;
+}
+
+.header, .hero, .information {
+    width: 1200px;
 }
 
 .header {
@@ -56,6 +59,12 @@ html, body {
     flex: 1;
 }
 
+.hero-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
@@ -84,4 +93,44 @@ html, body {
     font-size: 18px;
     font-weight: 700;
     padding: 8px 32px;
+}
+
+.section-container-information {
+    padding: 48px 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-information-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    color: #1F2937;
+}
+
+.illustration {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
 }
