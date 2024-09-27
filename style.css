@@ -5,7 +5,10 @@ html, body {
     font-family: Roboto, sans-serif;
 }
 
-.section-container-header, .section-container-hero, .section-container-information {
+.section-container-header,
+.section-container-hero,
+.section-container-information,
+.section-container-quotation {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +18,13 @@ html, body {
     background-color: #1F2937;
 }
 
-.header, .hero, .information {
+.section-container-quotation {
+    background-color: #E5E7EB;
+}
+
+.header, .hero, .information, .quotation {
     width: 1200px;
+    box-sizing: border-box;
 }
 
 .header {
@@ -133,4 +141,28 @@ html, body {
     height: 200px;
     border: 4px solid #3882F6;
     border-radius: 12px;
+}
+
+.quotation {
+    margin: 48px 0;
+    padding: 48px 128px;
+}
+
+.quotation blockquote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
+
+.quotation .citation {
+    text-align: end;
+}
+
+.quotation .citation cite {
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
 }
