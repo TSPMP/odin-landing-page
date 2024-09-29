@@ -11,21 +11,17 @@ html, body {
     align-items: center;
 }
 
+.content {
+    width: 1200px;
+    box-sizing: border-box;
+}
+
 .section-container-header, .section-container-hero {
     background-color: #1F2937;
 }
 
 .section-container-quotation {
     background-color: #E5E7EB;
-}
-
-.header,
-.hero,
-.information,
-.quotation,
-.call-to-action {
-    width: 1200px;
-    box-sizing: border-box;
 }
 
 .header {
