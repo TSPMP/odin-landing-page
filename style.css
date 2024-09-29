@@ -5,11 +5,7 @@ html, body {
     font-family: Roboto, sans-serif;
 }
 
-.section-container-header,
-.section-container-hero,
-.section-container-information,
-.section-container-quotation,
-.section-container-call-to-action {
+.section-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,11 +205,8 @@ html, body {
     border-radius: 8px;
 }
 
-.footer {
+footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 48px 0;
 }
