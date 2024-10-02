@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +17,8 @@ html, body {
     box-sizing: border-box;
 }
 
-.section-container-header, .section-container-hero {
+.section-container-header,
+.section-container-hero {
     background-color: #1F2937;
 }
 
@@ -60,7 +62,8 @@ html, body {
     gap: 48px;
 }
 
-.hero-left, .hero-right {
+.hero-left,
+.hero-right {
     flex: 1;
 }
 
@@ -78,7 +81,8 @@ html, body {
     margin: 0;
 }
 
-.hero p, .hero img {
+.hero p,
+.hero img {
     color: #E5E7EB;
     font-size: 18px;
     padding: 0;
@@ -166,8 +170,7 @@ html, body {
     font-style: normal;
 }
 
-.section-container-call-to-action
-{
+.section-container-call-to-action {
     padding: 64px 0;
 }
 
