@@ -24,6 +24,7 @@ body {
 
 .section-container-quotation {
     background-color: #E5E7EB;
+    padding: 80px 0;
 }
 
 .header {
@@ -35,6 +36,8 @@ body {
 
 .header ul {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 32px;
     list-style: none;
     margin: 0;
@@ -54,11 +57,13 @@ body {
 }
 
 .section-container-hero {
-    padding: 48px 0;
+    padding: 64px 0;
 }
 
 .hero {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     gap: 48px;
 }
 
@@ -67,10 +72,15 @@ body {
     flex: 1;
 }
 
+.hero-left {
+    margin-left: 8px;
+}
+
 .hero-right {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 8px;
 }
 
 .hero h1 {
@@ -81,13 +91,10 @@ body {
     margin: 0;
 }
 
-.hero p,
-.hero img {
+.hero p {
     color: #E5E7EB;
     font-size: 18px;
-    padding: 0;
-    padding-bottom: 16px;
-    margin: 0;
+    margin-bottom: 16px;
 }
 
 .hero img {
@@ -109,16 +116,11 @@ body {
     padding: 48px 0;
 }
 
-.information {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .container-information-cards {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .information h1 {
@@ -126,8 +128,8 @@ body {
     font-weight: 900;
     color: #1F2937;
     margin: 0;
-    padding: 0;
     margin-bottom: 48px;
+    text-align: center;
 }
 
 .information-card {
@@ -138,6 +140,7 @@ body {
     text-align: center;
     gap: 8px;
     color: #1F2937;
+    max-width: 200px;
 }
 
 .illustration {
@@ -148,8 +151,7 @@ body {
 }
 
 .quotation {
-    margin: 48px 0;
-    padding: 48px 128px;
+    padding: 0 128px;
 }
 
 .quotation blockquote {
@@ -157,7 +159,6 @@ body {
     font-weight: light;
     font-style: italic;
     color: #1F2937;
-    padding: 0;
     margin: 0;
 }
 
@@ -176,7 +177,7 @@ body {
 }
 
 .call-to-action {
-    padding: 32px 0;
+    padding: 32px 8px;
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 12px;
@@ -188,7 +189,6 @@ body {
 .call-to-action h1,
 .call-to-action p {
     margin: 0;
-    padding: 0;
 }
 
 .call-to-action h1 {
