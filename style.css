@@ -6,6 +6,26 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.dark-background-color {
+    background-color: #1F2937;
+}
+
+.dark-foreground-color {
+    color: #1F2937;
+}
+
+.light-background-color {
+    background-color: #E5E7EB;
+}
+
+.light-foreground-color {
+    color: #E5E7EB;
+}
+
+.blue-background-color {
+    background-color: #3882F6;
+}
+
 .section-container {
     display: flex;
     justify-content: center;
@@ -17,13 +37,7 @@ body {
     box-sizing: border-box;
 }
 
-.section-container-header,
-.section-container-hero {
-    background-color: #1F2937;
-}
-
 .section-container-quotation {
-    background-color: #E5E7EB;
     padding: 80px 0;
 }
 
@@ -46,14 +60,13 @@ body {
 
 .header ul li a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: inherit;
     font-size: 18px;
 }
 
 .header .logo {
     font-size: 24px;
     font-weight: 800;
-    color: #F9FAF8;
 }
 
 .section-container-hero {
@@ -92,7 +105,6 @@ body {
 }
 
 .hero p {
-    color: #E5E7EB;
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -102,10 +114,9 @@ body {
 }
 
 .hero button {
-    background-color: #3882F6;
     border: none;
     border-radius: 8px;
-    color: #E5E7EB;
+    color: inherit;
     font-size: 18px;
     font-weight: 700;
     padding: 8px 32px;
@@ -126,7 +137,6 @@ body {
 .information h1 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
     margin: 0;
     margin-bottom: 48px;
     text-align: center;
@@ -139,7 +149,6 @@ body {
     justify-content: center;
     text-align: center;
     gap: 8px;
-    color: #1F2937;
     max-width: 200px;
 }
 
@@ -158,7 +167,6 @@ body {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    color: #1F2937;
     margin: 0;
 }
 
@@ -178,8 +186,6 @@ body {
 
 .call-to-action {
     padding: 32px 8px;
-    background-color: #3882F6;
-    color: #E5E7EB;
     border-radius: 12px;
     display: flex;
     justify-content: space-around;
@@ -197,8 +203,8 @@ body {
 
 .call-to-action button {
     padding: 8px 32px;
-    background-color: #3882F6;
-    color: #E5E7EB;
+    color: inherit;
+    background-color: inherit;
     font-size: 18px;
     font-weight: 700;
     border: 2px solid #E5E7EB;
@@ -207,7 +213,5 @@ body {
 }
 
 footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
     padding: 48px 0;
 }
